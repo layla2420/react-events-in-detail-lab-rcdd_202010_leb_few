@@ -3,7 +3,7 @@ import React , {Component} from 'react'
 
 export default class CoordinatesButton {
 handleClick()=>{
-this.props.onReceiveCoordinates([event.clientX, event.clientY]);  
+this.props.onReceiveCoordinates([event.clientX, event.clientY]);
 }
   render(){
     return(
