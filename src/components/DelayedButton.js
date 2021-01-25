@@ -12,11 +12,11 @@ return(
 <div>
 <buttom onClick={handleClick}>Delayed</buttom>
 </div>
-  
+
 )
-  
+
 }
 
 
-  
+
 }
