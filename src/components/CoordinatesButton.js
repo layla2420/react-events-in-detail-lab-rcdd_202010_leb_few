@@ -2,7 +2,7 @@
 import React , {Component} from 'react'
 
 export default class CoordinatesButton {
-handleClick()=>{
+handleClick=()=>{
 this.props.onReceiveCoordinates([event.clientX, event.clientY]);
 }
   render(){
